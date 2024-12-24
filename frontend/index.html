@@ -1,0 +1,36 @@
+<!-- frontend/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>Questions App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Questions App</h1>
+    
+    <div id="problem-container">
+      <h2>Problem:</h2>
+      <p id="problem-prompt">Loading problem...</p>
+    </div>
+    
+    <div id="code-container">
+      <h2>Your Code:</h2>
+      <textarea id="code-input" rows="10" placeholder='e.g., let shawn = 1;'></textarea>
+    </div>
+    
+    <button id="submit-btn">Submit</button>
+    
+    <div id="result-container">
+      <h2>Result:</h2>
+      <p id="result-message"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
